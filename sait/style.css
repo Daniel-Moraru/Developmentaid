@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body header,
+main {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: #40404F;
+}
+
+.decor {
+    width: 100%;
+    height: 100px;
+    background-color: #0073CF;
+    position: absolute;
+}
+
+.img-profile {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 100px;
+    object-fit: cover;
+}
+
+.section {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    background-color: white;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    margin-top: 15px;
+}
+
+.name {
+    color: #0047AB;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.bold-text {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.title-section {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0047AB;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-bottom: 2px solid #40404F;
+}
+
+.name-coponent {
+    font-size: 23px;
+    font-weight: 600;
+    color: #2A52BF;
+    margin-top: 15px;
+}
+
+.place-name {
+    font-size: 23px;
+    font-weight: 600;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.place-name-margin {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.detaile-name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.detaile-name-margin {
+    margin-bottom: 5px;
+}
+
+.language {
+    font-size: 23px;
+    font-weight: 600;
+    color: #2A52BF;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.flex-tabel {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.flex-cel {
+    width: 25%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+section:last-child {
+    z-index: 2;
+    padding-bottom: 150px;
+}
+
+.decor-1 {
+    width: 100%;
+    height: 100px;
+    background-color: #0073CF;
+    position: absolute;
+    z-index: 1;
+    margin-top: -90px;
+}
