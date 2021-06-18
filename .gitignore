@@ -1,3 +1,6 @@
+text.txt
+config.php.example
+README.md
 config.php
 logs/*
 !/logs/.gitkeep
