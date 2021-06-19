@@ -6,6 +6,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('../bootstrap-5.0.1-dist/css/bootstrap.css');  
+
 body header,
 main {
     font-family: 'Lato', sans-serif;
@@ -41,7 +43,6 @@ main {
     position: relative;
     background-color: white;
 }
-
 .d-flex {
     display: flex;
     align-items: center;
@@ -55,6 +56,7 @@ header p {
     color: #0047AB;
     font-size: 35px;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 .bold-text {
@@ -115,9 +117,9 @@ header p {
 }
 
 .flex-cel {
-    width: 25%;
-    flex-grow: 1;
+    
     text-align: center;
+    
 }
 
 section:last-child {
@@ -132,4 +134,46 @@ section:last-child {
     position: absolute;
     z-index: 1;
     margin-top: -90px;
+}
+@media (max-width:575px) { 
+    .section  {
+        
+        padding-left: 5px;
+        padding-right: 5px;
+        position: relative;
+    }
+    body header,main {
+        padding-left: 5px;
+        padding-right: 5px; 
+    } 
+    
+}
+@media (max-width: 992px) { 
+    .d-flex {
+        flex-wrap: wrap;
+        
+    }
+    .name {
+        margin-top: 20px;
+    }
+    div .container,.section,.d-flex {
+        justify-content: center;
+    }
+    .flex-tabel {
+        
+        flex-direction: column;
+    }
+    .phone {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+}
+@media (min-width:992px) {
+    summary:hover {
+        margin-left: 50px;
+        scale: 1.1;
+    }
+    
 }
